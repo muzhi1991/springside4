@@ -450,6 +450,7 @@
 							<exclude>**/*Controller.class</exclude>
 						</excludes>
 					</instrumentation>
+					<check>85</check>
 				</configuration>
 			</plugin>
 
@@ -528,6 +529,8 @@
 					<webAppConfig>
 						<contextPath>/${project.artifactId}</contextPath>
 					</webAppConfig>
+					<stopPort>9999</stopPort>
+					<stopKey>foo</stopKey>
 				</configuration>
 			</plugin>
 		</plugins>
